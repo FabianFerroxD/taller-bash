@@ -1,0 +1,20 @@
+2025-10-01 Buenos Aires 22.5
+2025-10-01 Córdoba 20.3
+2025-10-01 Rosario 21.8
+2025-10-01 Mendoza 18.9
+2025-10-02 Buenos Aires 24.1
+2025-10-02 Córdoba 22.7
+2025-10-02 Rosario 23.5
+2025-10-02 Mendoza 19.6
+2025-10-03 Buenos Aires 23.8
+2025-10-03 Córdoba 21.9
+2025-10-03 Rosario 22.4
+2025-10-03 Mendoza 20.1
+2025-10-04 Buenos Aires 25.3
+2025-10-04 Córdoba 23.5
+2025-10-04 Rosario 24.2
+2025-10-04 Mendoza 21.3
+2025-10-05 Buenos Aires 26.7
+2025-10-05 Córdoba 24.8
+2025-10-05 Rosario 25.6
+2025-10-05 Mendoza 22.4

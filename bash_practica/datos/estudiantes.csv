@@ -1,0 +1,16 @@
+id,nombre,apellido,edad,carrera,promedio,ciudad
+1,Juan,Pérez,20,Informática,8.5,Buenos Aires
+2,María,García,22,Sistemas,9.2,Córdoba
+3,Carlos,López,21,Informática,7.8,Rosario
+4,Ana,Martínez,19,Electrónica,8.9,Mendoza
+5,Pedro,Rodríguez,23,Sistemas,7.5,La Plata
+6,Laura,Fernández,20,Informática,9.0,Tucumán
+7,Diego,Sánchez,22,Electrónica,8.3,Mar del Plata
+8,Sofía,González,21,Sistemas,8.7,Salta
+9,Lucas,Ramírez,20,Informática,7.9,Neuquén
+10,Valentina,Torres,19,Sistemas,9.5,Córdoba
+11,Mateo,Díaz,22,Electrónica,8.1,Buenos Aires
+12,Camila,Ruiz,21,Informática,8.8,Rosario
+13,Nicolás,Moreno,20,Sistemas,7.6,Mendoza
+14,Martina,Álvarez,23,Informática,9.1,La Plata
+15,Tomás,Romero,19,Electrónica,8.4,Tucumán

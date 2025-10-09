@@ -1,0 +1,21 @@
+#Comando para instalar GIT-BASH:
+winget install --id Git.Git -e --source winget 
+
+#Comando para instalar jq:
+winget install jqlang.jq
+
+## Gitlab Server:
+Host gitlab.com
+  Hostname gitlab.com
+  User git
+  Identityfile ~/.ssh/gitlab.key
+  TCPKeepAlive yes
+  IdentitiesOnly yes
+
+## Nombre Proyecto:
+Host NOMBRE
+  Hostname IP
+  User USUARIO
+  #Identityfile ~/.ssh/gitlab.key
+  #TCPKeepAlive yes
+  #IdentitiesOnly yes

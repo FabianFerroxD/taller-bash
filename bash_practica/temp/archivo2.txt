@@ -1,0 +1,5 @@
+Segundo archivo de prueba.
+Datos aleatorios para practicar.
+123456789
+abcdefghijklmnopqrstuvwxyz
+ABCDEFGHIJKLMNOPQRSTUVWXYZ

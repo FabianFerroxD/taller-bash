@@ -1,0 +1,22 @@
+Notas del curso de Sistemas Operativos
+========================================
+
+Clase 1: Introducción a Linux
+- Comandos básicos: ls, cd, pwd
+- Gestión de archivos
+- Permisos de usuario
+
+Clase 2: Procesos y memoria
+- ps, top, kill
+- Gestión de memoria
+- Swap y paginación
+
+Clase 3: Shell scripting
+- Variables de entorno
+- Condicionales y bucles
+- Funciones en bash
+
+TODO:
+- Revisar ejercicios del capítulo 4
+- Preparar presentación final
+- Estudiar para el examen

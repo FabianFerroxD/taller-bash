@@ -1,0 +1,20 @@
+2025-10-08 08:15:23 [ERROR] Database connection failed: timeout after 30s
+2025-10-08 08:15:24 [ERROR] Retry attempt 1 failed
+2025-10-08 08:15:25 [ERROR] Retry attempt 2 failed
+2025-10-08 08:16:10 [ERROR] File not found: /var/www/uploads/image.png
+2025-10-08 08:17:45 [ERROR] Invalid JSON format in request body
+2025-10-08 08:18:20 [ERROR] Authentication failed for user 'john_doe'
+2025-10-08 08:19:05 [ERROR] Permission denied: cannot write to /etc/config
+2025-10-08 08:20:30 [ERROR] Memory allocation failed: out of memory
+2025-10-08 08:21:15 [ERROR] Network unreachable: 192.168.1.50
+2025-10-08 08:22:40 [ERROR] SSL certificate expired
+2025-10-08 08:23:55 [ERROR] Query timeout: SELECT * FROM large_table
+2025-10-08 08:25:10 [ERROR] Disk quota exceeded for user 'webuser'
+2025-10-08 08:26:25 [ERROR] Invalid credentials provided
+2025-10-08 08:27:40 [ERROR] Service unavailable: API endpoint down
+2025-10-08 08:28:55 [ERROR] Failed to parse XML document
+2025-10-08 08:30:10 [ERROR] Connection refused on port 3306
+2025-10-08 08:31:25 [ERROR] Segmentation fault in module 'processor'
+2025-10-08 08:32:40 [ERROR] Rate limit exceeded: 1000 requests/hour
+2025-10-08 08:33:55 [ERROR] Invalid email format: user@invalid
+2025-10-08 08:35:10 [ERROR] Transaction rollback: constraint violation

@@ -1,0 +1,15 @@
+[DEBUG 2025-10-08 10:00:01] Application started
+[DEBUG 2025-10-08 10:00:02] Loading configuration from config.json
+[DEBUG 2025-10-08 10:00:03] Database connection established
+[DEBUG 2025-10-08 10:00:04] Initializing cache system
+[DEBUG 2025-10-08 10:00:05] Cache initialized with 1000 entries
+[DEBUG 2025-10-08 10:00:10] Processing request from 192.168.1.100
+[DEBUG 2025-10-08 10:00:11] Query executed in 45ms
+[DEBUG 2025-10-08 10:00:12] Response sent: 200 OK
+[DEBUG 2025-10-08 10:00:20] Processing request from 192.168.1.101
+[DEBUG 2025-10-08 10:00:21] Cache hit for key: user_profile_123
+[DEBUG 2025-10-08 10:00:22] Response sent: 200 OK
+[DEBUG 2025-10-08 10:00:30] Garbage collection triggered
+[DEBUG 2025-10-08 10:00:31] Memory freed: 150MB
+[DEBUG 2025-10-08 10:00:40] Processing batch job: export_data
+[DEBUG 2025-10-08 10:00:45] Batch job completed: 5000 records processed

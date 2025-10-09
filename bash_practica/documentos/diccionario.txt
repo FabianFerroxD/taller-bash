@@ -1,0 +1,25 @@
+algoritmo: Conjunto ordenado de operaciones sistemáticas que permite hacer un cálculo
+bash: Shell de Unix y lenguaje de comandos
+cache: Memoria de acceso rápido que almacena datos temporalmente
+debug: Proceso de identificar y corregir errores en el código
+error: Problema que impide la ejecución correcta de un programa
+función: Bloque de código reutilizable que realiza una tarea específica
+git: Sistema de control de versiones distribuido
+hardware: Componentes físicos de un sistema informático
+input: Datos de entrada que recibe un programa
+json: Formato de intercambio de datos basado en texto
+kernel: Núcleo del sistema operativo
+linux: Sistema operativo de código abierto basado en Unix
+memoria: Dispositivo que almacena información temporalmente
+network: Red de computadoras interconectadas
+output: Datos de salida que produce un programa
+proceso: Instancia de un programa en ejecución
+query: Consulta a una base de datos
+recursión: Técnica donde una función se llama a sí misma
+servidor: Computadora que proporciona servicios a otras computadoras
+terminal: Interfaz de línea de comandos para interactuar con el sistema
+unix: Sistema operativo multitarea y multiusuario
+variable: Espacio de memoria que almacena un valor
+web: Sistema de información distribuido en Internet
+xml: Lenguaje de marcado extensible para almacenar datos
+zip: Formato de compresión de archivos

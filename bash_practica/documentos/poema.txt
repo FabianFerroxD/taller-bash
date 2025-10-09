@@ -1,0 +1,24 @@
+En el terminal oscuro,
+donde el cursor parpadea,
+el programador escribe
+comandos que crean.
+
+Con grep busca palabras,
+con awk procesa datos,
+con sed transforma textos,
+y con pipe los enlaza.
+
+El bash es su lenguaje,
+la shell su compañera,
+y cada script que escribe
+es una obra sincera.
+
+Entre logs y archivos,
+navega con destreza,
+usando find y locate,
+con notable certeza.
+
+Y cuando el bug aparece,
+no pierde la calma,
+pues sabe que con paciencia,
+encontrará la falla.

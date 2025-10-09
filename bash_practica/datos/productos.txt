@@ -1,0 +1,15 @@
+PROD001|Laptop Dell XPS 13|1299.99|Electrónica|15
+PROD002|Mouse Logitech MX Master|89.99|Accesorios|50
+PROD003|Teclado Mecánico Corsair|149.99|Accesorios|30
+PROD004|Monitor Samsung 27"|349.99|Electrónica|20
+PROD005|Webcam Logitech C920|79.99|Accesorios|40
+PROD006|Auriculares Sony WH-1000XM4|299.99|Audio|25
+PROD007|SSD Samsung 1TB|119.99|Almacenamiento|60
+PROD008|RAM Corsair 16GB|89.99|Componentes|45
+PROD009|Router TP-Link AX3000|149.99|Redes|35
+PROD010|Impresora HP LaserJet|249.99|Oficina|18
+PROD011|Tablet iPad Air|599.99|Electrónica|12
+PROD012|Smartphone Samsung S23|899.99|Móviles|22
+PROD013|Cámara Canon EOS R6|2499.99|Fotografía|8
+PROD014|Micrófono Blue Yeti|129.99|Audio|28
+PROD015|Hub USB-C Anker|49.99|Accesorios|70

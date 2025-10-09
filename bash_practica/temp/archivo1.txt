@@ -1,0 +1,5 @@
+Este es un archivo temporal de prueba.
+Contiene varias líneas de texto.
+Algunas palabras se repiten: error, warning, info.
+Error en la línea 4.
+Todo funciona correctamente.
