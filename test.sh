@@ -11,6 +11,14 @@ YELLOW='\033[1;33m'
 BLUE='\033[0;34m'
 NC='\033[0m' # No Color
 
+# Directorio de datos del taller (relativo a la ubicación de este script)
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+PRACTICA_DIR="${SCRIPT_DIR}/bash_practica"
+if ! cd "$PRACTICA_DIR"; then
+    echo "No se encontró bash_practica en: $PRACTICA_DIR" >&2
+    exit 1
+fi
+
 # Contador de pruebas
 TOTAL_TESTS=0
 PASSED_TESTS=0
@@ -74,17 +82,20 @@ run_and_show() {
 # Inicio del script
 clear
 echo -e "${GREEN}╔════════════════════════════════════════════╗${NC}"
-echo -e "${GREEN}║   TEST DE EJERCICIOS PRÁCTICOS DE BASH    ║${NC}"
+echo -e "${GREEN}║   TEST BASH — MÓDULOS 2, 3 y 4 (IPAP)    ║${NC}"
 echo -e "${GREEN}╔════════════════════════════════════════════╗${NC}"
 echo ""
 echo "Directorio de trabajo: $(pwd)"
 echo "Fecha: $(date)"
 
 # ============================================
-# NIVEL 1: BÁSICO
+# MÓDULO 2: Sistema de archivos (+ grep intro)
+# MÓDULO 3: Filtros, pipes, awk, logs, scripts
+# MÓDULO 4: find, integradores
+# (orden conservado para compatibilidad con test.sh)
 # ============================================
 
-print_header "🎯 NIVEL 1: BÁSICO"
+print_header "MÓDULO 2 — Navegación, listados y grep básico"
 
 # Ejercicio 1: Navegación y Exploración
 print_subheader "Ejercicio 1: Navegación y Exploración"
@@ -125,11 +136,7 @@ run_test "grep en archivo2.txt" "grep -i '[A-Z]' temp/archivo2.txt"
 run_test "grep Status en archivo3.log" "grep 'Status' temp/archivo3.log"
 run_test "Contar timeout en error.log" "grep -c 'timeout' logs/error.log"
 
-# ============================================
-# NIVEL 2: INTERMEDIO
-# ============================================
-
-print_header "🎯 NIVEL 2: INTERMEDIO"
+print_header "MÓDULO 3 — Filtros, tuberías y redirecciones"
 
 # Ejercicio 4: Procesamiento con awk y cut
 print_subheader "Ejercicio 4: Procesamiento con awk y cut"
@@ -167,11 +174,7 @@ run_test "grep peticiones 200" "grep ' 200 ' logs/access.log > /tmp/peticiones_e
 run_test "cat archivos temp" "cat temp/archivo1.txt temp/archivo2.txt > /tmp/archivos_combinados.txt && test -f /tmp/archivos_combinados.txt"
 run_test "grep host database.conf" "grep 'host=' config/database.conf > /tmp/hosts_db.txt && test -f /tmp/hosts_db.txt"
 
-# ============================================
-# NIVEL 3: AVANZADO
-# ============================================
-
-print_header "🎯 NIVEL 3: AVANZADO"
+print_header "MÓDULO 3/4 — Logs, datos, find y scripts"
 
 # Ejercicio 7: Análisis de Logs
 print_subheader "Ejercicio 7: Análisis de Logs"
@@ -221,7 +224,7 @@ run_test "Verificar buscar_archivos.sh existe" "test -f scripts/buscar_archivos.
 # PROYECTOS INTEGRADORES
 # ============================================
 
-print_header "🏆 EJERCICIOS INTEGRADORES"
+print_header "Proyectos integradores (módulos 3 y 4)"
 
 # Proyecto 1: Reporte de Estudiantes
 print_subheader "Proyecto 1: Reporte de Estudiantes"
